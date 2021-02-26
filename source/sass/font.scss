@@ -1,0 +1,39 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"),
+  url("../fonts/Montserrat-Regular.woff2") format("woff2");
+}
+
+/* montserrat-bold - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"),
+  url("../fonts/Montserrat-Bold.woff2") format("woff2");
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"),
+  url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+/* adobe-garamond-pro-bold - latin */
+@font-face {
+  font-family: "Adobe-garamond-pro", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Adobe-Garamond-Pro-Bold.woff") format("woff"),
+  url("../fonts/Adobe-Garamond-Pro-Bold.woff2") format("woff2");
+}
