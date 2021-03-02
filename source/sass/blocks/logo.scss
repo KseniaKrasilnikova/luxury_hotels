@@ -1,0 +1,33 @@
+.logo {
+  width: 256px;
+  height: 149px;
+  box-sizing: border-box;
+  padding: 44px 10px;
+
+  background-color: #E0B973;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 4px 3px 0 rgba(20, 39, 74, 0.25);
+}
+
+.logo__text {
+  margin: 0;
+
+  font-family: Adobe Garamond Pro, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $darkColor;
+}
+
+.logo__text--big {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.15em;
+}
+
+.logo__text--small {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.6em;
+}
