@@ -1,25 +1,25 @@
 .booking {
-  margin-top: -600px;
+  margin-top: -770px;
 }
 
-.booking__text {
+.booking__invitation {
   max-width: 698.24px;
 
   text-align: left;
   color: white;
 }
 
-.booking__text p {
+.booking__invitation p {
   margin: 0;
 }
 
-.booking__text--intro {
+.booking__invitation--intro {
   text-transform: uppercase;
   font-size: 50px;
   line-height: 61px;
 }
 
-.booking__text--header {
+.booking__invitation--header {
   font-family: Adobe Garamond Pro, serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -28,7 +28,7 @@
   letter-spacing: 0.07em;
 }
 
-.booking__text--subheader {
+.booking__invitation--subheader {
   font-family: Adobe Garamond Pro, serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -37,7 +37,7 @@
   letter-spacing: 0.4em;
 }
 
-.booking__text--description {
+.booking__invitation--description {
   max-width: 580px;
 
   font-size: 25px;
@@ -45,4 +45,23 @@
   letter-spacing: 0.1em;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #FFFFFF;
+}
+
+.booking__action {
+  padding: 108px 0 80px 0;
+}
+
+.booking__button {
+  width: 268px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.booking__scroll {
+  margin: 0 auto;
 }

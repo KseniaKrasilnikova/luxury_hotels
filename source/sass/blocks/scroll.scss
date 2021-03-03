@@ -1,0 +1,17 @@
+.scroll {
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroll__sign {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
+}
