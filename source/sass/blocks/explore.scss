@@ -1,0 +1,13 @@
+.explore {
+  max-width: 1570px;
+  max-height: 579px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.explore__pic {
+  max-width: 866px;
+  max-height: 579px;
+  box-shadow: inset 0 0 0 1000px rgb(20 39 74 / 20%);
+}
