@@ -8,7 +8,7 @@
 }
 
 .explore__pic {
-  width: 933px;
+  width: 872px;
   height: 579px;
 
   background: $darkColor;
@@ -25,6 +25,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-top: -25px;
 
   box-sizing: border-box;
   padding: 0 99px 0 0;
@@ -55,6 +57,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: -5px;
 }
 
 .explore__title {
@@ -64,7 +67,7 @@
   font-weight: 700;
   font-size: 60px;
   line-height: 72px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 
 .explore__text {
