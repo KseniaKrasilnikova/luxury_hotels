@@ -1,0 +1,26 @@
+.beach {
+  height: 487px;
+}
+
+.beach__content {
+  height: 449px;
+  margin-bottom: -5px;
+}
+
+.beach__title {
+  letter-spacing: -0.01em;
+}
+
+.beach__description:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 433px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    margin-left: 464px;
+
+    background-color: $darkColor;
+}
+

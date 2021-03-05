@@ -1,0 +1,21 @@
+.rooms {
+  height: 579px;
+}
+
+.rooms__content {
+  height: 350px;
+  margin-bottom: -5px;
+}
+
+.rooms__description:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 334px;
+  width: 2px;
+  left: 0;
+  right: 0;
+  margin-left: 464px;
+
+  background-color: $darkColor;
+}
