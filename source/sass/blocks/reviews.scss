@@ -2,30 +2,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  //justify-content: center;
 }
 
-.reviews p {
-  margin: 0;
-}
-
-.reviews__title {
-  font-family: Adobe Garamond Pro, serif;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 72px;
-}
-
-.reviews__text {
-  font-size: 30px;
-  line-height: 37px;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: $darkColor;
-}
-
-.reviews__author {
-  font-size: 25px;
-  line-height: 30px;
-  -webkit-text-stroke-width: .2px;
-  -webkit-text-stroke-color: $darkColor;
-}

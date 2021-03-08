@@ -1,0 +1,31 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials h3,
+.testimonials p {
+  margin: 0;
+}
+
+.testimonials__title {
+  font-family: Adobe Garamond Pro, serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.testimonials__text {
+  font-size: 30px;
+  line-height: 37px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: $darkColor;
+}
+
+.testimonials__author {
+  font-size: 25px;
+  line-height: 30px;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: $darkColor;
+}
