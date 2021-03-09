@@ -37,10 +37,6 @@
   list-style: none;
 }
 
-.testimonials__item {
+.testimonials__item--disabled {
   display: none;
-
-  &:first-child {
-    display: inline-block;
-  }
 }
