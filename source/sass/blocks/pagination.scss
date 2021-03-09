@@ -41,3 +41,8 @@
   transform: rotate(180deg);
   text-indent: -1000px;
 }
+
+.pagination a.disabled {
+  pointer-events: none;
+  background-color: #c1c1c1;
+}

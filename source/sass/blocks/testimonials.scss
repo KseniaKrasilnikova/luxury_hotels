@@ -29,3 +29,18 @@
   -webkit-text-stroke-width: .2px;
   -webkit-text-stroke-color: $darkColor;
 }
+
+.testimonials__list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.testimonials__item {
+  display: none;
+
+  &:first-child {
+    display: inline-block;
+  }
+}
