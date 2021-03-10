@@ -1,21 +1,33 @@
 // reviews pagination
-var reviewItems = document.querySelectorAll(".testimonials__item:not(.prev,.next,.testimonials__item--disabled)");
-var nextBtn = document.getElementsByClassName("pagination__next");
-var prevBtn = document.getElementsByClassName("pagination__prev");
+var nextBtn = document.querySelector(".pagination__next");
+var prevBtn = document.querySelector(".pagination__prev");
+var reviewText = document.querySelector(".testimonials__text");
+var reviewAuthor = document.querySelector(".testimonials__author");
+var reviewData = [
+    {
+        'text': '"Calm, Serene, Retro – What a way to relax and enjoy"',
+        'author': 'Mr. and Mrs. Baxter, UK'
+    },
+    {
+        'review': '"hahaha"',
+        'author': 'Mr. and Mr. Smith, USA'
+    }
+]
 
+var currentReview = 0;
 
+var fillReview = function (review) {
+    reviewText.textContent = review.text;
+    reviewAuthor.textContent = review.author;
+};
 
-//nextBtn.addEventListener('click', function (evt) {
-  //  prevBtn.classList.remove("disabled");
-    //reviewItems.classList.add("testimonials__item--disabled");
-
-// });
+fillReview(reviewData[currentReview]);
 
 var showNext = function () {
     prevBtn.classList.remove("disabled");
+    currentReview++;
+    fillReview(reviewData[currentReview]);
 }
 
-for (var i = 0; i < nextBtn.length; i++) {
-    nextBtn[i].addEventListener('click', showNext, true);
-}
 
+nextBtn.addEventListener('click', showNext, true);
