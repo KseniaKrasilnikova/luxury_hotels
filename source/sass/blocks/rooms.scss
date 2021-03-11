@@ -3,19 +3,18 @@
 }
 
 .rooms__content {
-  height: 350px;
+  min-height: 350px;
   margin-bottom: -5px;
 }
 
-.rooms__description:before {
+.rooms:before {
   content: " ";
   display: block;
-  position: absolute;
-  height: 334px;
-  width: 2px;
+  position: relative;
+  min-height: 335px;
+  width: 3px;
   left: 0;
   right: 0;
-  margin-left: 464px;
 
   background-color: $darkColor;
 }

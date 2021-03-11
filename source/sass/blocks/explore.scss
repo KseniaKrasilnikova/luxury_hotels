@@ -1,14 +1,17 @@
 .explore {
-  max-width: 1521px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  box-sizing: border-box;
+  flex-basis: 100%;
+
   margin-bottom: 69px;
 }
 
 .explore__pic {
-  width: 872px;
+  width: 866px;
   height: 100%;
 
   background: $darkColor;
@@ -20,15 +23,15 @@
 }
 
 .explore__description {
-  width: 660px;
+  width: 605px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-end;
-  margin-top: -25px;
+  margin: -25px 50px 0 48.5px;
 
   box-sizing: border-box;
-  padding: 0 93px 0 0;
+  padding: 0 55px 0 0;
 }
 
 .explore__description p,
@@ -45,8 +48,6 @@
 }
 
 .explore__title {
-  margin-top: -26px;
-
   font-family: Adobe Garamond Pro, serif;
   font-weight: 700;
   font-size: 60px;
