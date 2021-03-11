@@ -1,5 +1,5 @@
 .menu-list {
-  width: 699.79px;
+  min-width: 699.79px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -9,6 +9,8 @@
 }
 
 .menu-list__item {
+  max-width: 138px;
+  margin: 0 4px;
   list-style: none;
 }
 

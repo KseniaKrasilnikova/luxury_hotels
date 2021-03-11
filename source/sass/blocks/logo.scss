@@ -1,11 +1,13 @@
 .logo {
   width: 256px;
   height: 149px;
-  box-sizing: border-box;
-  padding: 44px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   background-color: $accentColor;
-  border-radius: 0 0 60px 60px;
+  border-radius: 0 0 50px 50px;
   box-shadow: 0 4px 3px 0 rgba(20, 39, 74, 0.25);
 }
 
@@ -22,8 +24,8 @@
 
 .logo__text--big {
   font-size: 40px;
-  line-height: 48px;
-  letter-spacing: 0.15em;
+  line-height: 40px;
+  letter-spacing: 0.1em;
 }
 
 .logo__text--small {

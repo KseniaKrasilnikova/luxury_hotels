@@ -4,8 +4,7 @@
   align-items: center;
 }
 
-.testimonials h3,
-.testimonials p {
+.testimonials h3 {
   margin: 0;
 }
 
@@ -17,6 +16,8 @@
 }
 
 .testimonials__text {
+  margin: 31px 0 20px 0;
+
   font-size: 30px;
   line-height: 37px;
   -webkit-text-stroke-width: .5px;
@@ -24,6 +25,7 @@
 }
 
 .testimonials__author {
+  margin: 0;
   font-size: 25px;
   line-height: 30px;
   -webkit-text-stroke-width: .2px;
