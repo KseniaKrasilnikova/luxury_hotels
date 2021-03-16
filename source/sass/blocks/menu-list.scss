@@ -4,12 +4,13 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
 .menu-list__item {
-  max-width: 138px;
+  //max-width: 138px;
   margin: 0 4px;
   list-style: none;
 }

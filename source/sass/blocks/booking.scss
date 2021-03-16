@@ -1,9 +1,14 @@
 .booking {
-  margin-top: -738px;
+  margin-top: -781px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 782px;
 }
 
 .booking__invitation {
   max-width: 698.24px;
+  margin-bottom: 29px;
 
   text-align: left;
   color: white;
@@ -14,21 +19,27 @@
   max-height: 328px;
 }
 
-.booking__action {
-  padding: 108px 0 80px 0;
-}
-
 .booking__button {
-  width: 268px;
-  height: 78px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 32px;
+  width: 100%;
   margin: 0 auto;
+  position: relative;
+  padding: 24px 16px 24px 60px;
 }
 
 .booking__scroll {
   margin: 0 auto;
+}
+
+.booking__icon {
+  width: 26px;
+  height: 28px;
+  position: absolute;
+  left: 12%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.booking__action {
+  width: 268px;
+  align-self: center;
 }
