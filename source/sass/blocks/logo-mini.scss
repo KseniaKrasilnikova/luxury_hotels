@@ -1,0 +1,31 @@
+.logo-mini {
+  width: 118px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-mini__text {
+  margin: 0;
+
+  font-family: Adobe Garamond Pro, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.logo-mini__text--big {
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+}
+
+.logo-mini__text--small {
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.6em;
+}
