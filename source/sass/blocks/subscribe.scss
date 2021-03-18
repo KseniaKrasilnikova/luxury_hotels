@@ -1,0 +1,17 @@
+.subscribe {
+  width: 360px;
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FFFFFF;
+}
+
+.subscribe__text {
+  margin: 0;
+}

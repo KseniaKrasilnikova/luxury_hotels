@@ -3,14 +3,27 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 86px;
+  height: 96px;
 }
 
 .socials__sign {
   font-size: 16px;
   line-height: 194.9%;
+  text-align: left;
   color: #F7F7F7;
 
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #FFFFFF;
+}
+
+.socials__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  //align-items: center;
+}
+
+.socials__icon {
+  width: 45px;
+  align-self: flex-end;
 }
