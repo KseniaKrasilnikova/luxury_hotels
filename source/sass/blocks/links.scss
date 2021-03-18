@@ -1,0 +1,14 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 101px;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #F7F7F7;
+
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FFFFFF;
+}

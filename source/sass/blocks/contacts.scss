@@ -1,0 +1,25 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 111px;
+}
+
+.contacts__logo {
+  padding-left: 6px;
+}
+
+.contacts__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__adress,
+.contacts__tel,
+.contacts__email {
+  font-size: 14px;
+  line-height: 17px;
+
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FFFFFF;
+}
