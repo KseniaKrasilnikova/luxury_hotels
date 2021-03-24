@@ -13,7 +13,7 @@ var reviewData = [
         'author': 'Mr. and Mr. Smith, USA'
     },
     {
-        'text': '"Best breakfasts I ever tried and softest beds"',
+        'text': '"Best breakfasts I have ever tried and the softest beds"',
         'author': 'Mr. Yang, China'
     }
 ]
