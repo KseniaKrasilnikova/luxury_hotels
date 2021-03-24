@@ -4,3 +4,10 @@
   color: white;
   opacity: 1;
 }
+
+.form__group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 52px;
+}

@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 96px;
 }
 
 .socials__sign {
@@ -20,10 +19,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  //align-items: center;
+  align-items: flex-start;
 }
 
 .socials__icon {
   width: 45px;
-  align-self: flex-end;
 }
