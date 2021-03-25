@@ -14,6 +14,10 @@
   list-style: none;
 }
 
+.menu-list__item--current {
+  text-decoration: underline;
+}
+
 .menu-list__item a {
   cursor: pointer;
   display: block;
@@ -29,3 +33,4 @@
     text-decoration: underline;
   }
 }
+

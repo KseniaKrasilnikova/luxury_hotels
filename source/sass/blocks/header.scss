@@ -1,9 +1,20 @@
 .header {
+  background-color: $darkColor;
+}
+
+.header--pic {
   height: 1080px;
 
-  background-color: #a3bb9d;
-  background-image: url("../img/hotels-header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(20,39,74,.5);
+
+}
+
+.header--home {
+  background-image: url("../img/hotels-header-bg.jpg");
+}
+
+.header--facilities {
+  background-image: url("../img/facilities-bg.jpg");
 }

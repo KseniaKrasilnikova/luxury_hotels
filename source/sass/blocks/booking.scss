@@ -1,9 +1,9 @@
 .booking {
-  margin-top: -781px;
+  margin-top: -740px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 782px;
+  justify-content: space-between;
+  height: 740px;
 }
 
 .booking__invitation {
@@ -27,7 +27,7 @@
 }
 
 .booking__scroll {
-  margin: 0 auto;
+  margin: 0 auto 38px;
 }
 
 .booking__icon {

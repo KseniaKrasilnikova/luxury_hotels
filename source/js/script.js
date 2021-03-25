@@ -50,3 +50,4 @@ var showPrev = function () {
 
 nextBtn.addEventListener('click', showNext, true);
 prevBtn.addEventListener('click', showPrev, true);
+
