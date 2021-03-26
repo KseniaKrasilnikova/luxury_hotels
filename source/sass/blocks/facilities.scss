@@ -1,6 +1,6 @@
 .facilities__header {
   width: 1540px;
-  margin: 0 auto;
+  margin: 77px auto;
 
   text-align: center;
 }
@@ -17,4 +17,80 @@
   line-height: 40px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $darkColor;
+}
+
+.facilities__content {
+  width: 1580px;
+  margin: 0 auto;
+}
+
+.facilities__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 186px;
+
+  background-color: $darkColor;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(20,39,74,.3);
+
+  &:last-child {
+    margin-bottom: 107px;
+  }
+
+}
+
+.facilities__item--gym {
+  height: 1052px;
+  background-image: url("../img/gym.jpg");
+}
+
+.facilities__item--bar {
+  height: 972px;
+  background-image: url("../img/poolside-bar.jpg");
+}
+
+.facilities__item--spa {
+  height: 1054px;
+  background-image: url("../img/spa.jpg");
+}
+
+.facilities__item--pool {
+  height: 888px;
+  background-image: url("../img/swimming-pool.jpg");
+}
+
+.facilities__item--rest {
+  height: 1054px;
+  background-image: url("../img/restaurant.jpg");
+}
+
+.facilities__item--laundry {
+  width: 1590px;
+  height: 1060px;
+  background-image: url("../img/laundry.jpg");
+}
+
+
+
+.facilities__sign {
+  width: 684px;
+  min-height: 75px;
+
+  background-color: white;
+}
+
+.facilities__sign p {
+  margin: 0;
+  padding: 16px 5px 0 5px;
+
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  vertical-align: center;
+  color: $darkColor;
+  text-transform: uppercase;
 }
