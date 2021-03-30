@@ -1,0 +1,63 @@
+.room__header {
+  width: 1304px;
+  margin: 78px auto;
+
+  text-align: center;
+}
+
+.room__title {
+  margin: 0;
+}
+
+.room__intro {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 29px;
+
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: $darkColor;
+}
+
+.room__intro {
+  line-height: 1.56em;
+}
+
+.room__content {
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.room__item {
+  height: 1302px;
+  box-sizing: border-box;
+  margin-bottom: 81px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border: 2px solid $darkColor;
+  border-radius:  0 0 15px 15px;
+}
+
+.room__photo {
+  height: 926px;
+}
+
+.room__sign {
+  height: 141px;
+  background-color: $darkColor;
+}
+
+.room__sign p {
+  margin: 0;
+  padding: 41px 10px 25px;
+
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73.14px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}

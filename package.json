@@ -50,6 +50,7 @@
   "author": "Ksenia Krasilnikova",
   "license": "ISC",
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "swiper": "^6.5.2"
   }
 }
