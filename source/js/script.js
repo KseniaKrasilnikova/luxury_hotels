@@ -1,3 +1,15 @@
+// import Swiper JS
+var Swiper = require('swiper');
+// import Swiper styles
+var SwiperStyles = require('swiper/swiper-bundle.css');
+
+
+var swiper = new Swiper('.swiper-container', {
+    speed: 400,
+    spaceBetween: 100,
+});
+
+
 // reviews pagination
 var nextBtn = document.querySelector(".pagination__next");
 var prevBtn = document.querySelector(".pagination__prev");
