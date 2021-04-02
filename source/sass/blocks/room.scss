@@ -1,6 +1,6 @@
 .room__header {
   width: 1304px;
-  margin: 78px auto;
+  margin: 76px auto;
 
   text-align: center;
 }
@@ -10,6 +10,8 @@
 }
 
 .room__intro {
+  margin: 28px 0;
+
   font-family: Roboto;
   font-size: 25px;
   line-height: 29px;
@@ -58,6 +60,5 @@
   line-height: 73.14px;
   text-align: center;
   text-transform: uppercase;
-
   color: #FFFFFF;
 }

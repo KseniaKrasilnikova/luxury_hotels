@@ -1,14 +1,10 @@
-// import Swiper JS
-var Swiper = require('swiper');
-// import Swiper styles
-var SwiperStyles = require('swiper/swiper-bundle.css');
-
-
 var swiper = new Swiper('.swiper-container', {
     speed: 400,
-    spaceBetween: 100,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
 });
-
 
 // reviews pagination
 var nextBtn = document.querySelector(".pagination__next");
