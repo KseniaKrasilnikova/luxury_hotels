@@ -1,5 +1,5 @@
 .room__header {
-  width: 1304px;
+  max-width: 1304px;
   margin: 76px auto;
 
   text-align: center;
@@ -25,12 +25,12 @@
 }
 
 .room__content {
-  width: 1604px;
+  max-width: 1604px;
   margin: 0 auto;
 }
 
 .room__item {
-  height: 1302px;
+  min-height: 1302px;
   box-sizing: border-box;
   margin-bottom: 81px;
 
@@ -43,11 +43,18 @@
 }
 
 .room__photo {
+  width: 1604px;
+
   height: 926px;
+  position: relative;
+  left: -2px;
+  top: -2px;
 }
 
 .room__sign {
-  height: 141px;
+  min-height: 141px;
+  position: relative;
+  top: -2px;
   background-color: $darkColor;
 }
 
@@ -86,7 +93,7 @@
 }
 
 .room__info {
-  margin: 77px 0 70px;
+  margin: 77px 10px 70px;
 }
 
 .room__info-content {
@@ -95,7 +102,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 1274px;
+  max-width: 1274px;
   height: 79px;
   margin: 0 auto;
 }
