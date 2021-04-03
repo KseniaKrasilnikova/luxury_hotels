@@ -62,3 +62,56 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.room__details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 372px;
+  height: 51px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.room__details-link {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: $darkColor;
+  text-transform: uppercase;
+}
+
+.room__info {
+  margin: 77px 0 70px;
+}
+
+.room__info-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1274px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+.room__price {
+  padding: 24px 43px 24px 44px;
+
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+
+  background-color: $accentColor;
+  border-radius: 10px;
+}
+
+.room__price p {
+  margin: 0;
+}
