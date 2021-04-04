@@ -1,4 +1,9 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+
   background-color: $darkColor;
 }
 
@@ -20,4 +25,8 @@
 
 .header--rooms {
   background-image: url("../img/rooms-bg.jpg");
+}
+
+.header--contact-us {
+  height: 465px;
 }
