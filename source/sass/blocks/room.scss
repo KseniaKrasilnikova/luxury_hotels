@@ -82,6 +82,11 @@
   cursor: pointer;
 }
 
+.room__details-btn {
+  width: 51px;
+  height: 51px;
+}
+
 .room__details-link {
   margin: 0;
   font-weight: bold;
@@ -108,11 +113,13 @@
 }
 
 .room__price {
+  max-width: 288px;
   padding: 24px 43px 24px 44px;
 
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
+  text-align: center;
   color: #FFFFFF;
 
   background-color: $accentColor;
