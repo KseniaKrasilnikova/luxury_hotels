@@ -1,15 +1,20 @@
 .swiper-slide {
-  height: 1067px;
-
-  background-image: url("../img/single-room.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
   width: 100%;
   height: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(20,39,74,.2);
 }
 
-.swiper-slide--double {
+.swiper-slide--single {
+  background-image: url("../img/single-room.jpg");
+}
 
+.swiper-slide--double {
+  background-image: url("../img/double-room.jpg");
+}
+
+.swiper-slide--twin {
+  background-image: url("../img/twin-room.jpg");
 }
