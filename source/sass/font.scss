@@ -30,10 +30,11 @@
 
 /* adobe-garamond-pro-bold - latin */
 @font-face {
-  font-family: "Adobe-garamond-pro", serif;
+  font-family: "Adobe-garamond-pro";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Adobe-Garamond-Pro-Bold.woff") format("woff"),
-  url("../fonts/Adobe-Garamond-Pro-Bold.woff2") format("woff2")
+  src: local("AGaramondPro-Bold"),
+          url("../fonts/AGaramondPro-Bold.woff") format("woff"),
+  url("../fonts/AGaramondPro-Bold.woff2") format("woff2")
 }

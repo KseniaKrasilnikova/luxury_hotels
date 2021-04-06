@@ -1,0 +1,20 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  margin-top: 261px;
+}
+
+.support__title {
+  margin: 0;
+  text-align: left;
+}
+
+.support__intro {
+  margin: 0;
+
+  font-size: 30px;
+  line-height: 37px;
+  color: $darkColor;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #000000;
+}
