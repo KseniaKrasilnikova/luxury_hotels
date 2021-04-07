@@ -1,0 +1,39 @@
+.contact-information {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 363px;
+  justify-content: space-between;
+
+  font-size: 40px;
+  line-height: 1.5em;
+  color: $darkColor;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: $darkColor;
+}
+
+.contact-information a {
+  margin-bottom: 23px;
+  color: $darkColor;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5em;
+}
+
+.contact-information p {
+  margin: 0;
+}
+
+.contact-information__map {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.contact-information__icon {
+  width: 81px;
+  height: 38px;
+  margin-left: 34px;
+  padding-top: 11px;
+}
