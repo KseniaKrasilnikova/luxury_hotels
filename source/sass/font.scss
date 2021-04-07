@@ -34,7 +34,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("AGaramondPro-Bold"),
-          url("../fonts/AGaramondPro-Bold.woff") format("woff"),
+  src: url("../fonts/AGaramondPro-Bold.woff") format("woff"),
   url("../fonts/AGaramondPro-Bold.woff2") format("woff2")
 }

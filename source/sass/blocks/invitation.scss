@@ -1,19 +1,22 @@
 .invitation__intro {
+  margin: 0;
   text-transform: uppercase;
   font-size: 50px;
   line-height: 61px;
 }
 
 .invitation__header {
+  margin: -24px 0 0;
   font-family: Adobe Garamond Pro, serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 154px;
-  line-height: 134px;
+  line-height: 185px;
   letter-spacing: 0.02em;
 }
 
 .invitation__subheader {
+  margin: -25px 0 0;
   font-family: Adobe Garamond Pro, serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -24,6 +27,7 @@
 
 .invitation__description {
   max-width: 580px;
+  margin: 0;
 
   font-size: 25px;
   line-height: 30px;
