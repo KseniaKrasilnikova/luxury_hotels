@@ -15,9 +15,12 @@
 .contact-information a {
   margin-bottom: 23px;
   color: $darkColor;
-  font-weight: 700;
   font-size: 40px;
   line-height: 1.5em;
+}
+
+.contact-information__link {
+  font-weight: 400;
 }
 
 .contact-information p {
@@ -29,6 +32,10 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: left;
+  width: 325px;
+  align-items: center;
+
+  font-weight: 700;
 }
 
 .contact-information__icon {
@@ -37,3 +44,5 @@
   margin-left: 34px;
   padding-top: 11px;
 }
+
+
