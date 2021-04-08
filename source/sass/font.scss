@@ -37,3 +37,13 @@
   src: url("../fonts/AGaramondPro-Bold.woff") format("woff"),
   url("../fonts/AGaramondPro-Bold.woff2") format("woff2")
 }
+
+/* arial-regular - latin */
+@font-face {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Arial.woff") format("woff"),
+  url("../fonts/Arial.woff2") format("woff2")
+}
