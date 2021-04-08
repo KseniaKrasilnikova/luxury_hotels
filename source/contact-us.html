@@ -59,13 +59,24 @@
                 <div class="contact-form">
                     <div class="form-container>">
                         <form class="form" action="https://echo.htmlacademy.ru" method="post">
+                            <label class="form__label" for="name">
+                                <span class="form__comment">Name</span>
+                                <input class="form__input form__name" id="name" type="text">
+                            </label>
 
+                            <label class="form__email" for="contact-us-email">
+                                <span class="form__comment">Email</span>
+                                <input class="form__input form__email" id="contact-us-email" type="email">
+                            </label>
+                            <div class="form__textarea">
+                                <span class="form__comment">Message</span>
+                                <textarea class="form__area" name="comment" rows="5"></textarea>
+                            </div>
 
                             <div class="form__btn">
-
+                                <input type="submit" value="Submit" class="form__btn">
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -120,15 +131,17 @@
             </a>
         </div>
         <div class="subscribe">
-            <p class="subscribe__text">Subscribe to our newsletter</p>
-            <form class="subscribe__form form" action="#" method="post" autocapitalize="off">
-                <div class="form__group">
-                    <label>
-                        <input class="subscribe__input field" id="email" type="email" name="email" required placeholder="Email Address">
-                    </label>
-                    <button class="subscribe__btn" type="submit">Ok</button>
+            <form class="subscribe__form subscribe-form" action="#" method="post" autocapitalize="off">
+                <label class="subscribe-form__label" for="email"></label>
+                <span class="subscribe-form__comment">Subscribe to our newsletter</span>
+                <div class="subscribe-form__group">
+                    <input class="subscribe-form__input subscribe-form__field" id="email" type="email" name="email" required placeholder="Email Address">
+                    <button class="subscribe-form__btn" type="submit">Ok</button>
                 </div>
             </form>
+
+
+
         </div>
     </div>
 </footer>
