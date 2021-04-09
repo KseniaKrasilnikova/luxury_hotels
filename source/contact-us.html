@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.min.css" rel="stylesheet">
     <link rel="prefetch" href="fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/AGaramondPro-Bold.woff2" as="font" crossorigin="anonymous">
+    <link rel="prefetch" href="fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="prefetch" href="fonts/AGaramondPro-Bold.woff2" as="font" crossorigin="anonymous">
     <link rel="prefetch" href="fonts/Roboto-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="prefetch" href="fonts/Arial.woff2" as="font" crossorigin="anonymous">
     <title>Luxury hotels</title>
 </head>
 <body>
@@ -59,20 +60,19 @@
                 <div class="contact-form">
                     <div class="form-container>">
                         <form class="form" action="https://echo.htmlacademy.ru" method="post">
-                            <label class="form__label">
+                            <label class="form__label" for="name">
                                 <span class="form__comment">Name</span>
-                                <input class="form__input form__name" type="text">
+                                <input class="form__input form__name" id="name" type="text">
                             </label>
 
-                            <label class="form__label">
+                            <label class="form__label" for="mail">
                                 <span class="form__comment">Email Address</span>
-                                <input class="form__input form__email" type="email">
+                                <input class="form__input form__email" id="mail" type="email">
                             </label>
                             <div class="form__textarea">
                                 <span class="form__comment">Message</span>
                                 <textarea class="form__area" name="comment" rows="23"></textarea>
                             </div>
-
                             <div class="form__btn">
                                 <input type="submit" value="Submit" class="form__btn btn btn--small">
                             </div>
@@ -81,9 +81,6 @@
                 </div>
             </div>
         </section>
-
-
-
         </div>
     </main>
     <footer class="footer">
@@ -143,7 +140,7 @@
     </div>
 </footer>
 </div>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
+<script src="js/contact-form.js"></script>
+<script src="js/subscribe-form.js"></script>
 </body>
 </html>

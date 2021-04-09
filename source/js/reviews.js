@@ -1,11 +1,3 @@
-var swiper = new Swiper('.swiper-container', {
-    speed: 400,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-});
-
 // reviews pagination
 var nextBtn = document.querySelector(".pagination__next");
 var prevBtn = document.querySelector(".pagination__prev");
@@ -41,7 +33,7 @@ var showNext = function () {
     prevBtn.classList.remove("disabled");
     currentReview++;
     fillReview(reviewData[currentReview]);
-    if (reviewData[currentReview] == lastReview) {
+    if (reviewData[currentReview] === lastReview) {
         nextBtn.classList.add('disabled');
     }
 };
@@ -50,7 +42,7 @@ var showPrev = function () {
     nextBtn.classList.remove("disabled");
     currentReview--;
     fillReview(reviewData[currentReview]);
-    if (reviewData[currentReview] == firstReview) {
+    if (reviewData[currentReview] === firstReview) {
         prevBtn.classList.add('disabled');
     }
 };
@@ -59,3 +51,4 @@ var showPrev = function () {
 nextBtn.addEventListener('click', showNext, true);
 prevBtn.addEventListener('click', showPrev, true);
 
+// ---- //
