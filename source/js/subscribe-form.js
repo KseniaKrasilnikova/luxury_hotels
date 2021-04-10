@@ -1,10 +1,9 @@
 // localstorage
 
-var contactForm = document.querySelector(".form");
+var subscribeForm = document.querySelector(".subscribe__form");
 
 var onSubmit = function () {
-    localStorage.setItem("name", document.getElementById("name").value);
-    localStorage.setItem("mail", document.getElementById("mail").value);
+    localStorage.setItem("email", document.getElementById("email").value);
 };
 
-contactForm.addEventListener('submit', onSubmit, true);
+subscribeForm.addEventListener('submit', onSubmit, true);
