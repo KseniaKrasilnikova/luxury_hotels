@@ -8,13 +8,22 @@
 }
 
 .swiper-slide--single {
-  background-image: url("../img/single-room.jpg");
+  background-image: url("../img/single-room@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/single-room@2x.jpg");
+  }
 }
 
 .swiper-slide--double {
-  background-image: url("../img/double-room.jpg");
+  background-image: url("../img/double-room@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/double-room@2x.jpg");
+  }
 }
 
 .swiper-slide--twin {
-  background-image: url("../img/twin-room.jpg");
+  background-image: url("../img/twin-room@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/twin-room@2x.jpg");
+  }
 }

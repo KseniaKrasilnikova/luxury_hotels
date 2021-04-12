@@ -42,33 +42,51 @@
 
 .facilities__item--gym {
   height: 1052px;
-  background-image: url("../img/gym.jpg");
+  background-image: url("../img/gym@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/gym@2x.jpg");
+  }
 }
 
 .facilities__item--bar {
   height: 972px;
-  background-image: url("../img/poolside-bar.jpg");
+  background-image: url("../img/poolside-bar@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/poolside-bar@2x.jpg");
+  }
 }
 
 .facilities__item--spa {
   height: 1054px;
-  background-image: url("../img/spa.jpg");
+  background-image: url("../img/spa@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/spa@2x.jpg");
+  }
 }
 
 .facilities__item--pool {
   height: 888px;
-  background-image: url("../img/swimming-pool.jpg");
+  background-image: url("../img/swimming-pool@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/swimming-pool@2x.jpg");
+  }
 }
 
 .facilities__item--rest {
   height: 1054px;
-  background-image: url("../img/restaurant.jpg");
+  background-image: url("../img/restaurant@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/restaurant@2x.jpg");
+  }
 }
 
 .facilities__item--laundry {
   width: 1590px;
   height: 1060px;
-  background-image: url("../img/laundry.jpg");
+  background-image: url("../img/laundry@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/laundry@2x.jpg");
+  }
 }
 
 .facilities__sign {

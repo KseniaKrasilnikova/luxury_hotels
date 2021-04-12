@@ -22,11 +22,17 @@
 }
 
 .header--facilities {
-  background-image: url("../img/facilities-bg.jpg");
+  background-image: url("../img/facilities-bg@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/facilities-bg@2x.jpg");
+  }
 }
 
 .header--rooms {
-  background-image: url("../img/rooms-bg.jpg");
+  background-image: url("../img/rooms-bg@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/rooms-bg@2x.jpg");
+  }
 }
 
 .header--contact-us {
