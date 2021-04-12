@@ -15,7 +15,10 @@
 }
 
 .header--home {
-  background-image: url("../img/hotels-header-bg.jpg");
+  background-image: url("../img/hotels-header-bg@1x.jpg");
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/hotels-header-bg@2x.jpg");
+  }
 }
 
 .header--facilities {
