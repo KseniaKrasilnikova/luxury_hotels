@@ -10,17 +10,18 @@
 }
 
 .menu-list__item {
-  margin: 0 4px;
   list-style: none;
 }
 
 .menu-list__item--current {
   text-decoration: underline;
+  color: #FFFFFF;
 }
 
 .menu-list__item a {
   cursor: pointer;
   display: block;
+  padding: 0 4px;
 
   font-size: 25px;
   line-height: 30px;

@@ -7,7 +7,7 @@
   box-sizing: border-box;
   flex-basis: 100%;
 
-  margin-bottom: 70px;
+  margin-bottom: 67px;
 }
 
 .explore__pic {
@@ -16,6 +16,16 @@
 
   background: $darkColor;
   overflow: hidden;
+}
+
+.explore__pic--room {
+  width: 864px;
+  height: 580px;
+}
+
+.explore__pic--beach {
+  width: 865px;
+  height: 487px;
 }
 
 .explore__pic img {
