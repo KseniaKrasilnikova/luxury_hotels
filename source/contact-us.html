@@ -65,18 +65,18 @@
                         <form class="form" action="https://echo.htmlacademy.ru" method="post">
                             <label class="form__label" for="name">
                                 <span class="form__comment">Name</span>
-                                <input class="form__input form__name" id="name" type="text">
+                                <input class="form__input form__name" id="name" type="text" aria-label="Name">
                             </label>
                             <label class="form__label" for="mail">
                                 <span class="form__comment">Email Address</span>
-                                <input class="form__input form__email" id="mail" type="email">
+                                <input class="form__input form__email" id="mail" type="email" aria-label="email">
                             </label>
                             <div class="form__textarea">
                                 <span class="form__comment">Message</span>
                                 <textarea class="form__area" name="comment" rows="23"></textarea>
                             </div>
                             <div class="form__btn">
-                                <input type="submit" value="Submit" class="form__btn btn btn--small">
+                                <input type="submit" value="Submit" class="form__btn btn btn--small" aria-label="Submit">
                             </div>
                         </form>
                     </div>
@@ -134,7 +134,7 @@
                     <label class="subscribe-form__label" for="email"></label>
                     <span class="subscribe-form__comment">Subscribe to our newsletter</span>
                     <div class="subscribe-form__group">
-                        <input class="subscribe-form__input subscribe-form__field" id="email" type="email" name="email" required placeholder="Email Address">
+                        <input class="subscribe-form__input subscribe-form__field" id="email" aria-label="email" type="email" name="email" required placeholder="Email Address">
                         <button class="subscribe-form__btn" type="submit">Ok</button>
                     </div>
                 </form>
